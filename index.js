@@ -16,7 +16,7 @@ const mapResult = array.map(num =>
 // function someFunction(num) {
 //     return num * 2;
 // }
-console.log(mapResult);
+console.log(mapResult); // [ 4, 8, 16, 24, 64, 128 ]
 
 // Another example
 // const mapResult = array.map(num => num ** 2)
@@ -28,7 +28,7 @@ const fruits = [
     'Strawberry',
     'Watermelon'
 ];
-console.log(fruits.map(fruits => fruits.length));
+console.log(fruits.map(fruits => fruits.length)); // [ 7, 5, 10, 10 ]
 
 // Array reduce() Method
 
@@ -36,7 +36,7 @@ console.log(fruits.map(fruits => fruits.length));
 
 const reduceResult = array.reduce((sum, item) => sum + item)
 
-console.log(reduceResult);
+console.log(reduceResult); // 122
 
 // Reduce accepts two parameters, the total and the current amount.
 
@@ -44,4 +44,4 @@ const money = [12.36, 20.53, 57.21];
 
 const sum = money.reduce((acc, amount) => acc + amount);
 
-console.log(sum);
+console.log(sum); // 90.1
